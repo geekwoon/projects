@@ -2,7 +2,7 @@
 import { request } from '@/utils/request';
 
 export async function fetchExampleData(params) {
-  return request('/all', {
+  return request('/all.json', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
